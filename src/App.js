@@ -3,6 +3,9 @@ import "./App.css";
 const App = () => {
   return (
     <div className="background">
+      <div className="heading">
+          Remo Cards 
+      </div>
       <div className="menuPanel">
         <button className="buttonStyle">
               Host a game
