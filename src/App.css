@@ -1,0 +1,41 @@
+.background{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(117.21deg, #69D138 0.27%, #31B0B8 65.72%);
+}
+
+.menuPanel{
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  transform: translate(-50%, -50%);
+  width: 650px;
+  height: 500px;
+  background: #FFFFFF;
+  border-radius: 20px;
+}
+
+.buttonStyle{
+  width: 346px;
+  height: 58px;
+  background: #000000;
+  border-radius: 15px;
+  font-family: Cursive;
+  font-weight: bold;
+  font-size: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFFFFF;
+}
+
+.buttonStyle:hover{
+  background: #ffffff;
+  color: #000000;
+  cursor: pointer;
+}
